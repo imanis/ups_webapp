@@ -21,12 +21,15 @@
 // This module loads the configuration and routes files, as well as bootstraps the application. At
 // runtime it adds uri based on application location.
 
+// REST endpoint config
+var ServerHost = "http://ns312465.ip-188-165-218.eu:7070"
+
 // Config variable.
 var Config = {
   name: 'kylin',
   service: {
     base: '/kylin/',
-    url: '/kylin/api/'
+    url: kylinHost+'/kylin/api/'
   },
   documents: [],
   reference_links: {
