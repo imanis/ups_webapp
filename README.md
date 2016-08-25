@@ -8,8 +8,17 @@ Setup
 ===
 
  - clone the project
- - install dependency with npm install and bower install
- - run a dev build with grunt dev
+ - install dependency with
+```
+npm install
+```
+```
+bower install
+ ```
+ - run a dev build
+ ```
+ grunt dev
+```
  - copy the generated dist/ directory into apache server under a directory named webapp
 
 
